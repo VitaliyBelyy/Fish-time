@@ -1,0 +1,172 @@
+main.homepage {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 0 0 90px;
+  background-color: #fff;
+  z-index: 100;
+  .wrap-filter {
+    display: flex;
+    justify-content: center;
+    min-height: 46px;
+    background-color: $bl-grey;
+    padding-top: 45px;
+    margin-bottom: 30px;
+    .form-search {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+    .select2-container {
+      width: 196px !important;
+      margin-right: 30px;
+    }
+    .select2-selection__rendered {
+      font-size: 16px;
+      font-family: $Stolzl-Light;
+      color: $white !important;
+      text-align: left;
+      padding-left: 15px !important;
+      margin-top: 8px;
+    }
+    .select2-container--default .select2-selection--single {
+      width: 196px;
+      height: 48px;
+      background-color: $bl-grey-second;
+      margin-right: 30px;
+      border-radius: 2px !important;
+      border: 1px solid transparent !important;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+      top: 82% !important;
+      border: none !important;
+      width: 12px;
+      height: 8px;
+      background-image: url('../images/icon-select.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      left: -15% !important;
+    }
+    .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+      transform: rotate(180deg)!important;
+    }
+    li.select2-results__option {
+      width: 196px;
+      height: 48px;
+    }
+    .btn-to-find {
+      display: inline-block;
+      border-radius: 2px;
+      width: 127px;
+      height: 48px;
+      background-color: $pink;
+      font-size: 18px;
+      font-family: $Stolzl-Light;
+      color: $white;
+      text-align: center;
+      padding-top: 14px;
+      &:hover {
+        background-color: $color-hover-btn-sale;
+      }
+    }
+  }
+  .product-wrapper {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+  .product-wrapper header {
+    color: #262626;
+    font-size: $fs-large;
+    line-height: 10px;
+    margin-bottom: 13px;
+    text-align: center;
+    margin-top: 65px;
+  }
+  .product-wrapper .thumbnail-wrapper {
+    height: 175px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    img {
+      width: 100%;
+      height: auto;
+      min-height: 100%;
+    }
+  }
+  .product-wrapper footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+  }
+  .product-wrapper .product-price {
+    color: #262626;
+    font-size: $fs-large;
+    line-height: 10px;
+  }
+  .product-wrapper .add {
+    display: block;
+    height: 36px;
+    color: white;
+    font-size: $fs-base;
+    line-height: 8px;
+    background-color: #31b53d;
+    border-radius: 3px;
+    padding: 14px 20px 0;
+    &:hover {
+      background-color: #319e3b;
+    }
+  }
+  .product-wrapper .remove {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    background: url("../images/remove.png") no-repeat center #ed166a;
+    &:hover {
+      background-color: #da085a;
+    }
+  }
+  .total {
+    text-align: center;
+  }
+  .total-count {
+    color: #262626;
+    font-size: $fs-large;
+    line-height: 10px;
+    padding-top: 85px;
+    margin-bottom: 25px;
+  }
+  .functional-buttons .total-add, .functional-buttons .total-remove {
+    display: inline-block;
+    color: #fff;
+    font-size: $fs-large;
+    height: 47px;
+    width: 127px;
+    border-radius: 2px;
+  }
+  .functional-buttons .total-add {
+    background-color: #31b53d;
+    margin-right: 15px;
+    padding-top: 12px;
+    &:hover {
+      background-color: #319e3b;
+    }
+  }
+  .functional-buttons .total-remove {
+    position: relative;
+    background-color: #ed166a;
+    padding: 13px 10px 0 0;
+    &:hover {
+      background-color: #da085a;
+    }
+    &:after {
+      @include pseudo-absolute;
+      width: 10px;
+      height: 11px;
+      background: url("../images/remove.png") no-repeat center;
+      background-size: cover;
+      right: 9px;
+      top: 20px;
+    }
+  }
+}

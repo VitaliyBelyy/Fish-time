@@ -1,0 +1,68 @@
+main.order-page {
+  position: relative;
+  width: 100%;
+  float: left;
+  min-height: 715px;
+  padding: 180px 15px 0;
+  .order-form header {
+    text-align: center;
+    color: #262626;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 33px;
+    .logo-wrapper {
+      display: inline-block;
+      width: 87px;
+      height: 96px;
+      background: url("../images/logo-black.png") no-repeat center;
+      margin-bottom: 10px;
+    }
+  }
+  form {
+    width: 100%;
+    max-width: 615px;
+    margin: 0 auto;
+    input[type="text"] {
+      width: 48%;
+      border: none;
+      height: 46px;
+      border: 1px solid rgba(10, 10, 10, 0.2);
+      border-radius: 2px;
+      &::-webkit-input-placeholder {color:#262626;}
+      &::-moz-placeholder          {color:#262626;}/* Firefox 19+ */
+      &:-moz-placeholder           {color:#262626;}/* Firefox 18- */
+      &:-ms-input-placeholder      {color:#262626;}
+      padding: 7px 0 0 24px;
+      &:nth-of-type(1) {
+        float: left;
+      }
+      &:nth-of-type(2) {
+        float: right;
+      }
+    }
+    input[type="submit"] {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      height: 46px;
+      background-color: #ed166a;
+      border-radius: 2px;
+      color: #fff;
+      font-size: 24px;
+      border: none;
+      margin: 100px auto 0;
+      cursor: pointer;
+    }
+  }
+  .call {
+    display: none;
+    width: 43px;
+    height: 43px;
+    margin: 30px auto 0;
+    border-radius: 49%;
+    background: url("../images/call-i.png") no-repeat center #31b53d;
+    &:hover {
+      background-color: #319e3b;
+    }
+  }
+}

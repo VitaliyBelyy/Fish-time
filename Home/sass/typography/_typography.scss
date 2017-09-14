@@ -1,0 +1,27 @@
+// Add @font-face or @import rules here
+
+$fonts: '../fonts';
+@font-face {
+  font-family: "StolzlBook";
+  src: url("#{$fonts}/Stolzl/TheNorthernBlockLtd-Stolzl-Book.otf") format("opendocument");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "StolzlBold";
+  src: url("#{$fonts}/Stolzl/TheNorthernBlockLtd-Stolzl-Bold.otf") format("opendocument");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "StolzlMedium";
+  src: url("#{$fonts}/Stolzl/TheNorthernBlockLtd-Stolzl-Medium.otf") format("opendocument");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "StolzlLight";
+  src: url("#{$fonts}/Stolzl/TheNorthernBlockLtd-Stolzl-Light.otf") format("opendocument");
+  font-style: normal;
+  font-weight: normal;
+}

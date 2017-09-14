@@ -1,0 +1,198 @@
+@media all and (max-width: 1350px) {
+  body > footer .scrollup {
+    width: 50px;
+    height: 50px;
+    bottom: 173px;
+    right: 25px;
+    background-size: 30px 20px;
+  }
+}
+@media all and (max-width: 1099px) {
+  .phone-number-header {
+    padding-top: 20px;
+    margin-right: 0;
+    width: 100%;
+    text-align: right;
+  }
+  .phone-number-header li {
+    margin-right: 18px;
+  }
+  body > header .wrap-info-header {
+     padding-top: 30px;
+  }
+  main.rolls-page {
+    padding: 0 0 90px;
+  }
+  main.rolls-page .rolls-wrapper {
+    max-width: 500px;
+  }
+  main.rolls-page .rolls-wrapper .col-md-4 {
+    width: 50%;
+  }
+  .goods-menu {
+    max-width: 250px;
+  }
+  body > footer .scrollup {
+    width: 50px;
+    height: 50px;
+    bottom: 173px;
+    right: 25px;
+    background-size: 30px 20px;
+  }
+}
+@media all and (max-width: 830px) {
+  main.rolls-page .rolls-wrapper {
+    max-width: 450px;
+  }
+  main.rolls-page .rolls-wrapper .product-wrapper footer {
+    padding-left: 0;
+  }
+  main.rolls-page .rolls-wrapper .product-wrapper .product-price {
+    margin-right: 23px;
+  }
+  main.rolls-page .rolls-wrapper .product-wrapper:hover {
+    margin: -25px;
+    padding: 25px;
+  }
+  main.rolls-page .rolls-wrapper .product-wrapper .thumbnail-wrapper {
+    margin-bottom: 25px;
+  }
+  main.rolls-page .rolls-wrapper .consist {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  body > header.secondary {
+    min-height: 66px;
+    background: transparent;
+  }
+  body > header .wrap-info-header {
+    display: none;
+  }
+  body > header .wrap-mobile {
+    display: block;
+  }
+  .phone-number-header {
+    padding-top: 20px;
+    margin-right: 0;
+    width: 100%;
+    text-align: right;
+  }
+  .phone-number-header li {
+    font-size: 0.8rem;
+    margin-right: 18px;
+  }
+  .goods-menu {
+    display: none;
+  }
+  main.rolls-page .rolls-wrapper {
+    max-width: 550px;
+    float: none;
+    margin: 0 auto;
+  }
+  body > footer nav {
+    margin: 30px 0 20px;
+  }
+  body > footer .contacts li {
+    font-size: 0.8rem;
+  }
+  body > footer .social {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+}
+
+@media all and (max-width: 545px) {
+  main.order-page {
+    min-height: 550px;
+    padding: 90px 15px 0;
+  }
+  main.order-page form {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  main.order-page form input[type="text"] {
+    width: 100%;
+  }
+  main.order-page form input[type="text"]:nth-of-type(1) {
+    margin-bottom: 12px;
+  }
+  main.order-page form input[type="submit"] {
+    max-width: 100%;
+    margin: 116px auto 0;
+    &:hover {
+      background-color: #da085a;
+    }
+  }
+  body > footer .logo-wrapper {
+    display: none;
+  }
+  body > footer .col-xs-3, body > footer .col-xs-9 {
+    width: 100%;
+  }
+  body > footer ul {
+    text-align: center;
+  }
+  body > footer .contacts {
+    float: none;
+    li {
+      line-height: 2;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background: url(../images/phone-i.png) no-repeat center;
+        left: 0;
+        top: 4px;
+      }
+    }
+  }
+  main.order-page .call {
+    display: block;
+  }
+  .mobile-sidebar {
+    max-width: 230px;
+    a {
+      height: 100px;
+      padding-top: 40px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  main.rolls-page .rolls-wrapper .col-md-4 {
+    min-height: 350px;
+    width: 100%;
+  }
+  main.rolls-page .rolls-wrapper .product-wrapper {
+    left: calc(50% - 110px);
+    right: 0;
+    top: 0;
+    max-width: 220px;
+    padding-top: 25px;
+    &:hover {
+      max-width: 270px;
+    }
+  }
+  main.rolls-page .rolls-wrapper .product-wrapper .thumbnail-wrapper {
+    margin-bottom: 15px;
+  }
+  main.rolls-page .rolls-wrapper .consist {
+    margin-bottom: 0px;
+  }
+  main.rolls-page .rolls-wrapper .product-wrapper footer {
+    text-align: center;
+  }
+  main.rolls-page .rolls-wrapper .product-wrapper .product-price {
+    display: block;
+    margin: 15px 0;
+  }
+  body > footer .scrollup {
+    bottom: 200px;
+  }
+}
